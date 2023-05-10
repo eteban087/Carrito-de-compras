@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://kit.fontawesome.com/8654a2e4ea.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/javascript/main.js" type="module" defer></script>
+  <title>Ecomerce</title>
+</head>
+
+<body>
+
+
+  <!-- ======================== loading ======================= -->
+
+  <div id ="loading" class="container_loading">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <!--=========================== header =========================== -->
+
+  <div class="container_header">
+    <header class="header">
+      <a href="#" class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="logo--icon">
+          <path fill="currentColor"
+            d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+          </path>
+        </svg></a>
+
+      <nav class="nav">
+        <a href="">Home</a>
+        <a href="">Productos</a>
+      </nav>
+
+      <div class="iconos">
+        <i class="fa-solid fa-bars"></i>
+        <div class="icono_carrito" id="icono_carrito">
+          <span id = "notificacion" class="notificacion">1</span>
+          <i class="fa-solid fa-cart-shopping"></i></div>
+      </div>
+    </header>
+  </div>
+
+
+  <!--=============================== productos ========================== -->
+
+  <main class="main">
+    <h1 class="titulo">Productos</h1>
+
+    <section id="c_tarjetas" class="container_tarjetas">
+
+
+    </section>
+
+  </main>
+
+  <!--=============================== Carrito ================================= -->
+  <div id="container_carrito" class="container_carrito">
+    <div class="header_carrito">
+      <div id="cerrar" class="cerrar"><i class="fa-solid fa-x"></i> </div>
+
+      <div class="titulo_carrito">
+        <h2 style="margin-right: 30px;">Carrito de compras</h2>
+        <p id = "no_products"><i class="fa-solid fa-cart-shopping"></i> No hay articulos en el carrito</p>
+      </div>
+    </div>
+
+   
+    <div id ="productos_carrito" class="productos_carrito">
+      
+     
+    </div>
+  
+
+    <div class="footer_carrito">
+      <div class="con_info_footer_car">
+        <div class="cantidad_and_total">
+          <p >Cantidad: <span id="cantidad"></spa></p>
+          <p>Total: $<span id ="total"></span></p>
+        </div>
+        <button  id="btn_comprar" class="btn_comprar">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================footer============================== -->
+
+
+  <div class="container__footer">
+
+
+
+    <footer class="footer">
+
+      <div class="about">
+        <h3 style="margin-bottom: 10px;">Sobre Mi</h3>
+        <p>Soy <strong>Esteban Marimon</strong> Desarrollador web apasionado por la tecnología.
+          Maquetacion de un carrito de compras en Academlo.
+          </p>
+      </div>
+
+      <div class="container_redes_sociales">
+        <h3 style="margin-bottom: 10px;">Redes Sociales</h3>
+        <div class="redes_sociales">
+          <a href="https://www.linkedin.com/in/esteban-rafael/" target="_blank" class="contenedor_icono">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/eteban087" target="_blank" class="contenedor_icono">
+            <i class="fa-brands fa-github"></i>
+            <a />
+        </div>
+      </div>
+
+      <p style="margin-top: 20px;">Todos los derechos reservados &copy;2023</p>
+
+    </footer>
+  </div>
+
+
+
+  
+</body>
+
+</html>
