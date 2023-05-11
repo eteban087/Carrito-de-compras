@@ -63,6 +63,12 @@ img
     
 }
 
+.icono_menu
+{
+
+ display: none;
+}
+
 .lds-ellipsis {
     display: inline-block;
     position: relative;
@@ -662,6 +668,11 @@ margin-bottom: 30px;
   .tarjeta_productos_car
   {
     justify-content: center;
+  }
+
+  .icono_menu
+  {
+    display: block;
   }
 
 }
